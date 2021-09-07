@@ -6,6 +6,7 @@ https://www.npmjs.com/package/moment
 https://www.npmjs.com/package/react-file-base64
 https://www.npmjs.com/package/redux
 https://www.npmjs.com/package/redux-thunk
+https://www.npmjs.com/package/@material-ui/core
 
 // backEnd
 https://www.npmjs.com/package/body-parser
