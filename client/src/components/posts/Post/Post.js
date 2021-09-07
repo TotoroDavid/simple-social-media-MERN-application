@@ -1,6 +1,10 @@
-import React from 'react'
+//styles
+import useStyles from './style'
 
 const Post = () => {
+
+    const classes = useStyles()
+
     return (
         <div>
             single post
