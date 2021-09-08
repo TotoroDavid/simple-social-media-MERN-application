@@ -8,6 +8,7 @@ https://www.npmjs.com/package/redux
 https://www.npmjs.com/package/redux-thunk
 https://www.npmjs.com/package/react-redux
 https://www.npmjs.com/package/@material-ui/core
+https://www.npmjs.com/package/@material-ui/icons
 
 // backEnd
 https://www.npmjs.com/package/body-parser
