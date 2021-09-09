@@ -37,6 +37,8 @@ https://www.npmjs.com/package/redux-thunk</br>
 https://www.npmjs.com/package/react-redux</br>
 https://www.npmjs.com/package/@material-ui/core</br>
 https://www.npmjs.com/package/@material-ui/icons</br>
+https://www.npmjs.com/package/jwt-decode</br>
+https://www.npmjs.com/package/react-google-login</br>
 </br>
 // backEnd</br>
 https://www.npmjs.com/package/body-parser</br>
@@ -46,5 +48,7 @@ https://www.npmjs.com/package/mongoose</br>
 https://www.npmjs.com/package/nodemon</br>
 https://www.npmjs.com/package/dotenv</br>
 https://www.npmjs.com/package/dotenv</br>
+https://www.npmjs.com/package/bcryptjs</br>
+https://www.npmjs.com/package/jsonwebtoken</br>
 
 <img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/components/images/Screen%20Shot%202021-09-09%20at%209.41.05%20am.png?raw=true'>
