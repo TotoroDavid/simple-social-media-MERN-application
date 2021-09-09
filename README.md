@@ -47,4 +47,4 @@ https://www.npmjs.com/package/nodemon</br>
 https://www.npmjs.com/package/dotenv</br>
 https://www.npmjs.com/package/dotenv</br>
 
-<img src=''>
+<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/components/images/Screen%20Shot%202021-09-09%20at%209.41.05%20am.png?raw=true'>
