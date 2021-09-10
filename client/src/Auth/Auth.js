@@ -4,22 +4,40 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { GoogleLogin } from 'react-google-login'
 import { useDispatch } from 'react-redux'
 import { useHistory } from 'react-router-dom'
+import { signUp, signIn } from '../actions/auth'
 //styles    
 import useStyles from './styles'
 //component
 import Input from './Input'
 import Icon from './Icon'
 
+const initialState = { firsName: '', lastName: '', email: '', password: '', confirmPassword: '' }
+
 const Auth = () => {
 
     const classes = useStyles()
     const [showPassword, setShowPassword] = useState(false)
+    const [formData, setFormData] = useState(initialState)
     const [isSignUp, setIsSignUp] = useState(false)
     const dispatch = useDispatch()
     const history = useHistory()
     const handleShowPassword = () => setShowPassword((prevShowPassword) => !prevShowPassword)
-    const handleSubmit = () => { }
-    const handleChange = () => { }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        if (isSignUp) {
+            dispatch(signUp(formData, history))
+        } else {
+            dispatch(signIn(formData, history))
+        }
+    }
+
+    /**take the email and password */
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value })
+    }
+
     /** change to sing in and sing up mode */
     const switchMode = () => {
         setIsSignUp((prevIsSignUp) => !prevIsSignUp)
@@ -58,7 +76,7 @@ const Auth = () => {
                             isSignUp && (
                                 <>
                                     <Input name="FirstName" label='First Name' handleChange={handleChange} autoFocus half />
-                                    <Input name="FirstName" label='First Name' handleChange={handleChange} half />
+                                    <Input name="LastName" label='Last Name' handleChange={handleChange} half />
                                 </>
                             )
                         }

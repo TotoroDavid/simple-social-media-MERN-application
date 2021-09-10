@@ -2,7 +2,7 @@
  * actions creators data
  */
 
-import * as api from '../api'
+import * as api from '../api/index'
 import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes'
 
 /**getAll the posts */
