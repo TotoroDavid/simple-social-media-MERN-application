@@ -1,17 +1,14 @@
-/**
- * routes 
- */
+import express from 'express';
 
-import express from 'express'
-//controllers
-import { getPosts, createPost, updatePost, deletePost, likePost } from '../controllers/posts.js'
-const router = express.Router()
+import { getPosts, getPost, createPost, updatePost, likePost, deletePost } from '../controllers/posts.js';
 
-/**  http://localhost:5000/posts*/
-router.get('/', getPosts)
-router.post('/', createPost)
-router.patch('/:id', updatePost)
-router.delete('/:id', deletePost)
-router.patch('/:id/likePost', likePost)
+const router = express.Router();
+import auth from "../middleware/auth.js";
 
-export default router
+router.get('/', getPosts);
+router.post('/',auth,  createPost);
+router.patch('/:id', auth, updatePost);
+router.delete('/:id', auth, deletePost);
+router.patch('/:id/likePost', auth, likePost);
+
+export default router;
