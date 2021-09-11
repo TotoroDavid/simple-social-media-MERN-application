@@ -55,6 +55,6 @@ https://www.npmjs.com/package/dotenv</br>
 https://www.npmjs.com/package/bcryptjs</br>
 https://www.npmjs.com/package/jsonwebtoken</br>
 
-<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/images/Screen%20Shot%202021-09-11%20at%209.32.50%20am.png?raw=true'>
+<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/images/Screen%20Shot%202021-09-11%20at%209.37.56%20am.png?raw=true'>
 
-<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/images/Screen%20Shot%202021-09-11%20at%209.33.06%20am.png?raw=true'>
+<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/images/Screen%20Shot%202021-09-11%20at%209.38.24%20am.png?raw=true'>
