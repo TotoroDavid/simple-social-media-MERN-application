@@ -6,6 +6,8 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Auth from './components/Auth/Auth';
 
+import './index.css'
+
 const App = () => (
   <BrowserRouter>
     <Container maxWidth="lg">

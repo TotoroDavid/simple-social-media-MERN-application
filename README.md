@@ -4,6 +4,8 @@
 
 Using React, Node.js, Express & MongoDB to build a Full Stack MERN Project - from start to finish. The App is called "dave'sBook" and it is a simple social media MERN application that allows users to post interesting events that happened in their lives</br>
 
+at the same time, I'm going to add Authentication! Auth is a complex process, it means allowing users to register and log in. Email login using JWT, OAuth Google login</br>
+
 # frontend/client </br>
 
 install all the dependencies needed for </br>
@@ -53,4 +55,6 @@ https://www.npmjs.com/package/dotenv</br>
 https://www.npmjs.com/package/bcryptjs</br>
 https://www.npmjs.com/package/jsonwebtoken</br>
 
-<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/components/images/Screen%20Shot%202021-09-09%20at%209.41.05%20am.png?raw=true'>
+<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/images/Screen%20Shot%202021-09-11%20at%209.32.50%20am.png?raw=true'>
+
+<img src='https://github.com/TotoroDavid/simple-social-media-MERN-application/blob/master/client/src/images/Screen%20Shot%202021-09-11%20at%209.33.06%20am.png?raw=true'>
